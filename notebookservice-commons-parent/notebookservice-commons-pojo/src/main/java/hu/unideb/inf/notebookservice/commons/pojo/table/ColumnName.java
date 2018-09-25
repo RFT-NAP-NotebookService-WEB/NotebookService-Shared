@@ -28,12 +28,14 @@ public class ColumnName {
         public static final String COLUMN_NAME_START_DATE = "start_date";
 
         public static final String COLUMN_NAME_END_DATE = "end_date";
+
+        public static final String COLUMN_NAME_FAULT = "fault";
     }
 
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
-    public static final class FaultColumnName {
+    public static final class ModificationColumnName {
 
-        public static final String COLUMN_NAME_FAULT_ID = "fault_id";
+        public static final String COLUMN_NAME_MODIFICATION_ID = "modification_id";
 
         public static final String COLUMN_NAME_NAME = "name";
 
@@ -70,5 +72,12 @@ public class ColumnName {
         public static final String COLUMN_NAME_BRAND_ID = "brand_id";
 
         public static final String COLUMN_NAME_NAME = "name";
+    }
+
+    @NoArgsConstructor(access = AccessLevel.PRIVATE)
+    public static final class ReferencedColumName{
+
+        public static final String REFERENCED_COLUM_NAME_ID = "id";
+
     }
 }
