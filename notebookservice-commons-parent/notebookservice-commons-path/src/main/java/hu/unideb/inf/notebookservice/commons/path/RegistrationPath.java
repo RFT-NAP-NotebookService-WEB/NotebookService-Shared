@@ -4,6 +4,4 @@ public final class RegistrationPath {
 
     public static final String REGISTRATION_URL = "/register";
 
-    private RegistrationPath() {
-    }
 }
