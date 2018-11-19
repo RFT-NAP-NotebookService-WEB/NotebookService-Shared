@@ -1,4 +1,4 @@
-package hu.unideb.inf.notebookservice.commons.path;
+package hu.unideb.inf.notebookservice.commons.pojo.path;
 
 public final class LoginPath {
 
